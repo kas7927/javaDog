@@ -50,18 +50,18 @@ public class Dog {
                 dog1.setBreed("Husky");
                 Dog dog2 = new Dog("Spot", 10, "red", "collie");
                 Dog dog3 = new Dog("Wolf", 14, "gray", "lab");
-                System.out.println("Dog Name: " + dog1.getName());
+                System.out.println("Dog Name: " + dog1.getName() + "Likes to sleep.");
                 System.out.println("Dog Color: " + dog1.getColor());
                 System.out.println("Dog Age: " + dog1.getAge());
                 System.out.println("Dog Breed: " + dog1.getBreed());
 
 //Dog Object2
-                System.out.println("Dog Name: " + dog2.getName());
+                System.out.println("Dog Name: " + dog2.getName() + "Enjoys long walks.");
                 System.out.println("Dog Color: " + dog2.getColor());
                 System.out.println("Dog Age: " + dog2.getAge());
                 System.out.println("Dog Breed: " + dog2.getBreed());
 
-                System.out.println("Dog Name: " + dog3.getName());
+                System.out.println("Dog Name: " + dog3.getName() + "Is a great companion.");
                 System.out.println("Dog Color: " + dog3.getColor());
                 System.out.println("Dog Age: " + dog3.getAge());
                 System.out.println("Dog Breed: " + dog3.getBreed());}
