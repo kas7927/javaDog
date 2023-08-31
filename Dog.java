@@ -44,12 +44,12 @@ public class Dog {
             class Main {
             public static void main(String[] args) {
                 Dog dog1 = new Dog(args[0], 12, args[1], "husky"); //Don't need to use this, can make it the same as dog2
-                dog1.setName("Snoopy"); //this is setting its name to Rover rather than Spotty
+                dog1.setName("Snoopy");
                 dog1.setAge(Integer.parseInt("12"));
                 dog1.setColor("Black");
                 dog1.setBreed("Husky");
-                Dog dog2 = new Dog("Spot", 10, "red", "collie");
-                Dog dog3 = new Dog("Wolf", 14, "gray", "lab");
+                Dog dog2 = new Dog("Spot", 10, "brown", "collie");
+                Dog dog3 = new Dog("Wolf", 14, "tan", "lab");
                 System.out.println("Dog Name: " + dog1.getName() + "Likes to sleep.");
                 System.out.println("Dog Color: " + dog1.getColor());
                 System.out.println("Dog Age: " + dog1.getAge());
