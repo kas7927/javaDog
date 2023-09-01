@@ -41,7 +41,7 @@ public class Dog {
     public String getBreed() {
         return breed;
         {
-            class Main {
+
             public static void main(String[] args) {
                 Dog dog1 = new Dog(args[0], 12, args[1], "husky"); //Don't need to use this, can make it the same as dog2
                 dog1.setName("Snoopy");
@@ -68,4 +68,3 @@ public class Dog {
             }
         }
     }
-}
